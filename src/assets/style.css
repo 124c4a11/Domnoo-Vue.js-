@@ -84,17 +84,17 @@ body {
                 SLIDER
 ==================================*/
 
-.slider_bck {
+.slide {
     height: 850px;
     background-size: cover !important;
     background-repeat: no-repeat !important;
 }
 
-.slider-container {
+.slide__content {
     display: flex;
 }
 
-.slider-container .text {
+.slide__text {
     font-family: 'Monoton';
     color: #fff;
     font-size: 120px;
@@ -103,13 +103,13 @@ body {
     margin-top: 210px;
 }
 
-.slider-container .image {
+.slide__image {
     flex-grow: 1;
     width: 370px;
     text-align: center;
 }
 
-.slider-container .image img {
+.slide__image img {
     width: 410px;
     margin-top: 244px;
 }

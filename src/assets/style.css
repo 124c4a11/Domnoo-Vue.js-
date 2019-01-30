@@ -64,7 +64,6 @@ body {
 ==================================*/
 
 .page-footer {
-    margin-top: 130px;
     padding: 40px 0px;
     font-weight: 500;
     font-size: 20px;
@@ -116,14 +115,14 @@ body {
 
 
 /*================================
-            MENU CONTAINER
+           PRODUCTS
 ==================================*/
 
-.menu_container .top {
-    margin-top: 80px;
+.products {
+    padding: 80px 0;
 }
 
-.menu_container .top h2 {
+.products__title {
     text-align: center;
     font-size: 50px;
     font-family: 'Arizonia', cursive;
@@ -133,10 +132,21 @@ body {
     margin: 0px 0px;
 }
 
-.menu_container .buttons {
+.products__buttons {
     text-align: center;
     border-bottom: 1px solid #d4d4d4;
     margin-bottom: 40px;
+}
+
+.products__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.products__list-item {
+    width: 32%;
+    margin-bottom: 20px;
 }
 
 /*================================

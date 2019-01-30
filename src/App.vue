@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <app-header></app-header>
+    <app-footer></app-footer>
   </div>
 </template>
 
@@ -8,11 +9,13 @@
 import '@/assets/style.css'
 
 import appHeader from '@/components/Header.vue'
+import appFooter from '@/components/Footer.vue'
 
 export default {
   name: 'app',
   components: {
-    appHeader
+    appHeader,
+    appFooter
   }
 }
 </script>

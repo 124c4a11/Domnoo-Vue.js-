@@ -59,23 +59,20 @@ header .side-drawer {
            FOOTER
 ==================================*/
 
-footer {
+.page-footer {
     margin-top: 130px;
-    background: #212121;
-    color: #565656;
+    padding: 40px 0px;
     font-weight: 500;
     font-size: 20px;
     line-height: 32px;
-    padding: 40px 0px;
+    color: #565656;
+    text-align: center;
+    background: #212121;
 }
 
-footer .contact {
+.page-footer__contact {
     border-top: 1px solid #424242;
     padding: 20px;
-}
-
-footer .container {
-    text-align: center;
 }
 
 

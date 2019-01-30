@@ -51,7 +51,11 @@ body {
     width: 100%;
 }
 
-header .side-drawer {
+/*================================
+           SIDE-DRAWER
+==================================*/
+
+.side-drawer {
     background: #fff;
 }
 

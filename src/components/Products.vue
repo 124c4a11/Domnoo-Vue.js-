@@ -1,9 +1,9 @@
 <template>
   <section class="products">
     <div class="container">
-      <h2 class="products__title">Menu</h2>
+      <h2 v-scroll-reveal.reset class="products__title">Menu</h2>
 
-      <div class="products__buttons">
+      <div class="products__buttons" v-scroll-reveal.reset="{ delay: 250 }">
         <md-button
           v-for="(btn, ndx) in buttons"
           :key="ndx"
@@ -12,7 +12,7 @@
         >{{ btn.name }}</md-button>
       </div>
 
-      <div class="products__list">
+      <div class="products__list" v-scroll-reveal.reset="{ delay: 450 }">
         <md-card
           v-for="product in products"
           :key="product.id"

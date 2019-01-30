@@ -19,33 +19,45 @@ body {
 
 
 /*================================
-            HEADER FOOTER
+            HEADER
 ==================================*/
 
 
-header {
+.page-header {
     background: #c10a28;
     padding: 30px 0px 10px 0px;
 }
 
 
-header .logo {
+.page-header__logo {
     float:left;
 }
 
-header .nav {
+.page-header__nav {
     float:right;
 }
 
-header .nav img {
+.menu-toggle {
     width: 30px;
+    padding: 0;
     margin-top: 20px;
+    border: none;
+    background: none;
     cursor: pointer;
+}
+
+.menu-toggle img {
+    display: block;
+    width: 100%;
 }
 
 header .side-drawer {
     background: #fff;
 }
+
+/*================================
+           FOOTER
+==================================*/
 
 footer {
     margin-top: 130px;

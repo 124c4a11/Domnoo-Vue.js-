@@ -154,43 +154,78 @@ body {
 ==================================*/
 
 
-.call_us_container {
+.call-us{
     background: #c10a28;
     text-align: center;
-    margin: 110px 0px;
     padding: 40px 0px 70px 0px;
 }
 
-.call_us_container  .first {
+.call-us__title {
     padding: 20px 0px;
-}
-.call_us_container  .first h1 {
     font-size: 80px;
     margin: 0px;
     line-height: 150px;
-    color:#fff;
+    color: #fff;
 }
 
-.call_us_container .second  {
-    height:200px;
-}
-
-.call_us_container .third {
+.call-us__contacts {
     font-weight: 700;
     font-size: 60px;
     line-height: 150px;
     color:#fff;
 }
 
-.call_us_container .third span:first-child {
+.call-us__steps {
+    height: 200px;
+}
+
+.call-us__contacts span {
     color: #171717;
+}
+
+/*================================
+            STEPS
+==================================*/
+
+.steps {
+    position: relative;
+    height: 200px;
+}
+
+.steps__icon {
+    position: absolute;
+    font-size: 160px;
+    color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.steps__icon_phone {
+    top: 30px;
+    width: 130px;
+    height: 130px;
+    background-image: url(../assets/images/icons/icon-phone.png);
+}
+
+.steps__icon_plus {
+    top: 80px;
+}
+
+.steps__icon_delivery {
+    width: 200px;
+    height: 200px;
+    background-image: url(../assets/images/icons/icon-delivery.png);
+}
+
+.steps__icon_pizza {
+    width: 200px;
+    height: 200px;
+    background-image: url(../assets/images/icons/icon-pizza.png);
 }
 
 /*================================
             MENU CONTAINER
 ==================================*/
-
-
 
 .newsl_container h2 {
     font-size: 28px;

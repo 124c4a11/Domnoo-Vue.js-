@@ -3,7 +3,7 @@ import VueResource from 'vue-resource'
 import App from './App.vue'
 import fbConfig from './firebaseConfig'
 
-import VueScrollReveal from 'vue-scroll-reveal';
+import VueScrollReveal from 'vue-scroll-reveal'
 import { MdDrawer, MdButton, MdCard } from 'vue-material/dist/components'
 import 'vue-material/dist/vue-material.min.css'
 

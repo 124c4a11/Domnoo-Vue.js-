@@ -4,6 +4,7 @@
     <app-carousel></app-carousel>
     <app-products></app-products>
     <app-call-us></app-call-us>
+    <app-newsletter></app-newsletter>
     <app-footer></app-footer>
   </div>
 </template>
@@ -16,6 +17,7 @@ import appFooter from '@/components/Footer.vue'
 import appCarousel from '@/components/Carousel.vue'
 import appProducts from '@/components/Products.vue'
 import appCallUs from '@/components/CallUs'
+import appNewsletter from '@/components/Newsletter.vue'
 
 export default {
   name: 'app',
@@ -24,7 +26,8 @@ export default {
     appFooter,
     appCarousel,
     appProducts,
-    appCallUs
+    appCallUs,
+    appNewsletter
   }
 }
 </script>
